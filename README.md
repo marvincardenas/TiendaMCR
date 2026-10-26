@@ -12,5 +12,8 @@ Aplicación PHP desplegada en contenedores usando Docker Compose.
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/marvincardenas/TiendaMCR.git
-   cd miappMCR
+   cd TiendaMCR
    docker-compose up -d
+2. Acceder en el navegador:
+   ```bash
+   http://localhost:8080/listado.php
